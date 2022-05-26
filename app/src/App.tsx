@@ -4,6 +4,7 @@ import {
 } from "@solana/wallet-adapter-react-ui";
 import { SendTransaction } from "./components/SendTransaction";
 import { Counter } from "./components/Counter";
+import { Twitter } from "./components/Twitter";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <WalletMultiButton />
       <WalletDisconnectButton />
       {/* <Airdrop /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Twitter />
     </div>
   );
 }
